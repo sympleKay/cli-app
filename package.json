@@ -1,0 +1,18 @@
+{
+  "name": "cli-staff-manager",
+  "version": "1.0.0",
+  "description": "Command Line Interface (CLI) to manage staff records",
+  "main": "index.js",
+  "preferGloba": true,
+  "bin": "./command/command.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oluwakayode",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.0.0",
+    "inquirer": "^7.3.3",
+    "mongoose": "^5.11.13"
+  }
+}
